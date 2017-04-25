@@ -1,0 +1,22 @@
+class Measurements
+{
+  int length, breadth, height;
+  void computeArea(int length, int breadth)
+  {
+    int area = length * breadth;
+    System.out.println(area);
+  }
+  void computeVolume(int length, int breadth, int height)
+  {
+    int volume = length * breadth * height;
+    System.out.println(volume);
+  }
+}
+class Demo
+{
+  public static void main(String args[]) 
+  {
+    Measurements m = new Measurements();
+    m.computeArea(5,5);
+  }
+}
